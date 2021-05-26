@@ -15,7 +15,7 @@ def check_target(url):
 
 
 class ZerodiumRCE(cmd.Cmd):
-    prompt = 'zerodium $ '
+    prompt = 'zerodium$ '
 
     def default(self, line):
         pattern = re.compile("<.*html.*>")
