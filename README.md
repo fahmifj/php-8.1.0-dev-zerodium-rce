@@ -1,4 +1,4 @@
-# PHP Zerodium Unauthenticated RCE
+# Unauthenticated RCE via User-Agent in PHP 8.1.0-dev  
 
 Exploit background: https://news-web.php.net/php.internals/113838
 
@@ -6,17 +6,18 @@ Exploit background: https://news-web.php.net/php.internals/113838
 
 Linux
 ```
-./zerodiumRCE.py [url]
+chmod +x php-8.1.0-dev-zerodiumRCE
+./php-8.1.0-dev-zerodiumRCE [url]
 ```
 
 Windows
 ```
-python zerodiumRCE.py [url]
+python php-8.1.0-dev-zerodiumRCE [url]
 ```
 
 If the target is vulnerable, the exploit will give you a prompt.
 
-![image-20210526072215242](_resources/image-20210526072215242.png)
+![image-20210604032844874](_resources/image-20210604032844874.png)
 
 ## References
 - https://twitter.com/scurippio/status/1377029387334393861/retweets
