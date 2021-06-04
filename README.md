@@ -7,12 +7,12 @@ Exploit background: https://news-web.php.net/php.internals/113838
 Linux
 ```
 chmod +x php-8.1.0-dev-zerodiumRCE
-./php-8.1.0-dev-zerodiumRCE [url]
+./php-8.1.0-dev-zerodiumRCE.py [url]
 ```
 
 Windows
 ```
-python php-8.1.0-dev-zerodiumRCE [url]
+python php-8.1.0-dev-zerodiumRCE.py [url]
 ```
 
 If the target is vulnerable, the exploit will give you a prompt.
